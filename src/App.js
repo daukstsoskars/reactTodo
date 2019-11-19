@@ -73,7 +73,7 @@ render(){
         />
         <table className='table table-striped table-bordered'>
           <thead>
-            <tr><th>Description</th><th>Done</th></tr>
+            <tr><th className='w-75'>Description</th><th>Done</th></tr>
           </thead>
           <tbody>{this.todoTableRows(false)}</tbody>
         </table>
@@ -86,7 +86,7 @@ render(){
         {this.state.showCompleted &&
         <table className='table table-striped table-bordered'>
           <thead>
-            <tr><th>Description</th><th>Done</th></tr>
+            <tr><th className='w-75'>Description</th><th>Done</th></tr>
           </thead>
           <tbody>{this.todoTableRows(true)}</tbody>
         </table>}
